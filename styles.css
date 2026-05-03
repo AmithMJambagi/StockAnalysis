@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(5, 5, 83);
+}
+
+.Heading1{
+    text-align: center;
+    margin-top: 3%;
+    font-size: 2.5rem;
+    color: whitesmoke;
+}
+
+.chartContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.chart{
+    background-color: rgb(15, 10, 108);
+    height: 77vh;
+    width: 65vw;
+    border-radius: 6%;
+    display: block;
+}
+#myChart{
+    height: 70vh;
+    width: 65vw;
+}
+.list{
+    height: 70vh;
+    width: 30vw;
+    background-color: rgb(5, 5, 83);;
+}
+
+.stockList{
+    width : 60px;
+    height : 30px;
+    display: inline;
+    font-size: 0.7em;
+    margin-left: 20%;
+    margin-top: 3.5%;
+    background-color:rgb(15, 10, 108);
+    color:aliceblue;
+    border-radius: 10%;
+    font-weight: 650;
+}
+
+.price{
+    width : 60px;
+    height : 30px;
+    display: inline;
+    font-size: 0.7em;
+    margin-left: 20%;
+    margin-top: 3.5%;
+    background-color:rgb(15, 10, 108);
+    color:aliceblue;
+    border-radius: 10%;
+}
+
+
+
+
+.profit , .currentPrice{
+    margin-left: 7%;
+    color:aliceblue;
+    font-weight: 650;
+}
+.profit{
+    margin-left: 5vw;
+}
+
+.noprofit{
+    color:red;
+}
+
+.green{
+    color: rgb(17, 245, 17);
+}
+
+.time{
+    width: 8%;
+    margin-left: 15%;
+    height: 6%;
+    background-color: rgb(33, 27, 150);;
+    border-radius: 30px;
+    font: 600;
+    margin-top: 0;
+    color: aliceblue;
+}
+
+.details{
+    color: aliceblue;
+    width: 65vw;
+    font-size: 0.88em;
+    margin-top: 2%;
+    text-align: justify;
+    
+}
